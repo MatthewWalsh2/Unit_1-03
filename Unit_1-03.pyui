@@ -1,0 +1,161 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{182, 209}, {200, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{60, 144}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "79F606C7-B825-413B-B3AD-489D5A39C47E",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "length_textbox",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{697, 209}, {200, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "7B6BA608-5E6F-4474-BB87-E0B4FDC60803",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "width_textbox",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{55, 138}, {327, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "9910DE1B-5DAA-4051-BF71-BAA050227B68",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "input the length of the rectangle",
+          "name" : "length_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{678, 138}, {280, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "AEFF9AA7-D372-4003-B2E0-CA221B5E2BC4",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "input the width of the rectangle",
+          "name" : "width_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{383, 47}, {307, 70}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "52AFB650-5ECA-47C9-B008-7D946CAF0BF7",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "This program will calculate the area and perimeter of a rectangle based on the dimentions you input",
+          "name" : "Insturctions_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{348, 443}, {303, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "4E3FB9B8-1EF8-44E4-93CE-DDFD45B1E093",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "area_answer_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{397, 325}, {201, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "calculation_button",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Calculate area and perimeter",
+          "uuid" : "1FC3CB0A-8A59-4EB5-9276-A6F5F744A707",
+          "class" : "Button",
+          "name" : "calculation_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{348, 497}, {303, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "7D4AA15B-4723-4A64-AC42-CD1BA166373A",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "perimeter_answer_label",
+          "font_size" : 18
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
